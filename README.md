@@ -38,6 +38,7 @@ mvn clean package
 
 Go to auto-configuration directory
 ```shell script
+cd  auto-configuration
 mvn spring-boot:run
 ```
 
