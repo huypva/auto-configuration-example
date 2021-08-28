@@ -9,7 +9,7 @@ The example project for StringBoot service
 ## Project structure
 ```
 .
-├── hello-world
+├── auto-configuration
 │   ├── Dockerfile
 │   ...
 ├── docker-compose.yaml
@@ -26,20 +26,21 @@ The example project for StringBoot service
 
 ## Start project
 ## Start project in local
-## Start project in docker 
 
-- Start project
-```console
-docker-compose up -d
+- Clean and build
+```shell script
+mvn clean package
 ```
 
-- Some request & test
+![Build](./assets/images/build.png)
 
-
-- Stop project
-```console
-docker-compose down
+- Run project
+Go to auto-configuration director
+```shell script
+mvn spring-boot:run
 ```
+
+![Run](./assets/images/run.png)
 
 ## Contribute
 
