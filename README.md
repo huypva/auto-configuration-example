@@ -42,6 +42,8 @@ cd  auto-configuration
 mvn spring-boot:run
 ```
 
+Output:
+
 ```
 Id: 1
 Value: my value
