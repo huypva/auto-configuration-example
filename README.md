@@ -35,6 +35,7 @@ mvn clean package
 ![Build](./assets/images/build.png)
 
 - Run project
+
 Go to auto-configuration director
 ```shell script
 mvn spring-boot:run
