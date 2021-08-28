@@ -40,7 +40,10 @@ Go to auto-configuration director
 mvn spring-boot:run
 ```
 
-![Run](./assets/images/run.png)
+```
+Id: 1
+Value: my value
+```
 
 ## Contribute
 
