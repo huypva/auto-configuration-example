@@ -29,17 +29,20 @@ The example project for StringBoot service
 
 - Clean and build
 ```shell script
-mvn clean package
+$ mvn clean package
 ```
 
 ![Build](./assets/images/build.png)
 
 - Run project
 
-Go to auto-configuration directory
 ```shell script
-cd  auto-configuration
-mvn spring-boot:run
+$ cd  spring-boot-auto-configuration
+$ mvn spring-boot:run
+...
+2021-09-08 14:41:40.873  INFO 10417 --- [           main] i.c.a.AutoConfigurationApplication       : Started AutoConfigurationApplication in 1.789 seconds (JVM running for 2.367)
+Id: 1
+Value: my value
 ```
 
 Output:
