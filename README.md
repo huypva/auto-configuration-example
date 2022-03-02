@@ -29,7 +29,7 @@ The example project for StringBoot service
 
 - Clean and build
 ```shell script
-$ mvn clean package
+$ ./mvnw clean package
 ```
 
 ![Build](./assets/images/build.png)
@@ -38,7 +38,7 @@ $ mvn clean package
 
 ```shell script
 $ cd  spring-boot-auto-configuration
-$ mvn spring-boot:run
+$ ../mvnw spring-boot:run
 ...
 2021-09-08 14:41:40.873  INFO 10417 --- [           main] i.c.a.AutoConfigurationApplication       : Started AutoConfigurationApplication in 1.789 seconds (JVM running for 2.367)
 Id: 1
