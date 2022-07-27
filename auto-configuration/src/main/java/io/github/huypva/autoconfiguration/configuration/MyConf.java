@@ -1,4 +1,4 @@
-package io.codebyexample.autoconfiguration.configuration;
+package io.github.huypva.autoconfiguration.configuration;
 
 import lombok.Getter;
 import lombok.Setter;

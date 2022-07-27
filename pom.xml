@@ -3,14 +3,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.codebyexample</groupId>
-    <artifactId>spring-boot-auto-configuration-example</artifactId>
+    <groupId>io.github.huypva</groupId>
+    <artifactId>auto-configuration-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Parent</name>
 
     <modules>
-        <module>spring-boot-auto-configuration</module>
+        <module>auto-configuration</module>
     </modules>
 
 </project>

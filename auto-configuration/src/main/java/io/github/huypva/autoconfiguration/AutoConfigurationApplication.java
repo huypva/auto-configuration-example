@@ -1,6 +1,6 @@
-package io.codebyexample.autoconfiguration;
+package io.github.huypva.autoconfiguration;
 
-import io.codebyexample.autoconfiguration.configuration.MyConf;
+import io.github.huypva.autoconfiguration.configuration.MyConf;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
