@@ -8,19 +8,11 @@
 ```
 .
 ├── auto-configuration
-│   ├── Dockerfile
 │   ...
 ├── docker-compose.yaml
 |
 └── README.md
 ```
-
-## Prerequisites
-- Make sure that you have Docker and Docker Compose installed
-  - Windows or macOS:
-    [Install Docker Desktop](https://www.docker.com/get-started)
-  - Linux: [Install Docker](https://www.docker.com/get-started) and then
-    [Docker Compose](https://github.com/docker/compose)
 
 ## Start project
 ## Start project in local
@@ -28,26 +20,33 @@
 - Clean and build
 ```shell script
 $ ./mvnw clean package
+...
+[INFO] 
+[INFO] Auto Configuration ................................. SUCCESS [  9.644 s]
+[INFO] Parent ............................................. SUCCESS [  0.127 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.279 s
+[INFO] Finished at: 2022-07-27T10:54:42+07:00
+[INFO] ------------------------------------------------------------------------
 ```
-
-![Build](./assets/images/build.png)
 
 - Run project
 
 ```shell script
-$ cd  spring-boot-auto-configuration
+$ cd auto-configuration
 $ ../mvnw spring-boot:run
 ...
-2021-09-08 14:41:40.873  INFO 10417 --- [           main] i.c.a.AutoConfigurationApplication       : Started AutoConfigurationApplication in 1.789 seconds (JVM running for 2.367)
+2022-07-27 10:55:36.215  INFO 6566 --- [           main] i.g.h.a.AutoConfigurationApplication     : Started AutoConfigurationApplication in 1.006 seconds (JVM running for 1.341)
 Id: 1
 Value: my value
-```
-
-Output:
-
-```
-Id: 1
-Value: my value
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.490 s
+[INFO] Finished at: 2022-07-27T10:55:36+07:00
+[INFO] ------------------------------------------------------------------------
 ```
 
 ## Contribute
